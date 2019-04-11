@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.com/JMLegere/me.svg?branch=master)](https://travis-ci.com/JMLegere/me)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/JMLegere/me.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/JMLegere/me/context:javascript)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/JMLegere/me.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/JMLegere/me/alerts/)
 
 # client
 
