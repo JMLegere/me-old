@@ -1,9 +1,29 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <header id="banner">
+      <div id="name">
+        <h1>Jeremy Legere</h1>
+      </div>
+
+      <div id="nav">
+        <router-link to="/">
+          Home
+        </router-link>
+          |
+        <router-link to="/about">
+          About
+        </router-link>
+          |
+        <router-link to="/contact">
+          Contact
+        </router-link>
+          |
+        <router-link to="/work">
+          My Work
+        </router-link>
+      </div>
+    </header>
+
     <router-view/>
   </div>
 </template>
@@ -16,8 +36,27 @@
   text-align: center;
   color: #2c3e50;
 }
+
+#banner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+
+}
+
+#name {
+  width: 50%;
+  text-align: left;
+  padding-left: 31px;
+
+
+}
 #nav {
-  padding: 30px;
+  padding: 31px;
+  width: 50%;
+  text-align: right;
+
 }
 
 #nav a {
