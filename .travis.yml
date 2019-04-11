@@ -13,6 +13,7 @@ deploy:
   target_branch: master
   verbose: true
   local_dir: dist/
+  fqdn: jeremylegere.com
   on:
     branch: master
     
